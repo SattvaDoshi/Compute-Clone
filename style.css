@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Ubuntu:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    padding: 20px;
+}
+
+.page-1 {
+    height: 100vb;
+    border: 20px solid white;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    transition: all 0.3s ease-in-out;
+}
+
+.page-1>img {
+    position: absolute;
+    z-index: -9;
+    height: 100vh;
+    width: 96vw;
+}
+
+.page-1 button {
+    height: 10vh;
+    width: 5vw;
+    background-color: #1f1d1d;
+    opacity: 0.15;
+    color: #f4f4f4;
+    position: absolute;
+    top: 50%;
+    font-size: 2.9em;
+}
+
+.page-1 button:hover {
+    cursor: pointer;
+    opacity: 0.2;
+    font-weight: bold;
+}
+
+.prev {
+    position: absolute;
+    left: 2%;
+}
+
+.next {
+    position: absolute;
+    right: 2%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    list-style: none;
+    padding-top: 15px;
+    z-index: 3;
+}
+
+.navbar a {
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 20px 40px;
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.navbar a:hover {
+    background-color: white;
+    padding: 4px 9px;
+    border-radius: 10px;
+    color: #a8a8ca;
+    cursor: pointer;
+}
+
+.navbar img {
+    height: 65px;
+    width: 65px;
+    margin: 5px 80px;
+}
+
+.text {
+    position: absolute;
+    top: 30vh;
+    right: 20vb;
+    color: white;
+}
+
+.text h1 {
+    font-size: 4.1em;
+}
+
+.boxes {
+    display: flex;
+}
+
+.info img {
+    height: 600px;
+    background-size: cover;
+    padding: 10px 10px 10px 20px;
+    width: 720px;
+}
+
+.information {
+    height: 600px;
+    background-color: #f4f4f4;
+    margin: 10px 20px 10px 10px;
+    text-align: center;
+}
+
+.information h1 {
+    margin-top: 85px;
+    font-size: 2.9em;
+}
+
+.information h5 {
+    font-size: 1.1em;
+    opacity: 0.79;
+}
+
+.information p {
+    margin-top: 50px;
+    padding: 10px 120px;
+    opacity: 0.5;
+}
+
+.information button {
+    margin-top: 25px;
+    background-color: #f4f4f4;
+    height: 50px;
+    width: 160px;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.information button:hover {
+    background-color: black;
+    color: #f4f4f4;
+    opacity: 0.7;
+}
+
+.information-2 {
+    height: 600px;
+    margin: 10px 10px 10px 20px;
+    width: 720px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.info-2 img {
+    height: 600px;
+    background: cover;
+    padding: 10px 20px 10px 10px;
+    width: 740px;
+}
+
+.information-2 h1 {
+    margin-top: 85px;
+    font-size: 2.9em;
+}
+
+.information-2 h5 {
+    font-size: 1.1em;
+    opacity: 0.79;
+}
+
+.information-2 p {
+    margin-top: 50px;
+    padding: 10px 120px;
+    opacity: 0.5;
+}
+
+.information-2 button {
+    margin-top: 25px;
+    background-color: #f4f4f4;
+    height: 50px;
+    width: 160px;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.information-2 button:hover {
+    background-color: black;
+    color: #f4f4f4;
+    opacity: 0.7;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25vh;
+}
+
+.number h1 {
+    font-size: 2.9em;
+}
+
+.number h5 {
+    font-size: 1em;
+}
+
+.service-card {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card {
+    background-color: #f4f4f4;
+    text-align: center;
+    height: 370px;
+    margin: 10px 20px;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    padding: 5px 15px 20px 15px;
+}
+
+.card img {
+    margin-top: 40px;
+    height: 130px;
+    width: 130px;
+}
+
+.card h1 {
+    font-size: 2.7em;
+}
+
+.card p {
+    padding: 4px 25px;
+    opacity: 0.4;
+}
+
+.branding:hover {
+    background-color: #e1daaf;
+    opacity: 0.7;
+}
+
+.web:hover {
+    background-color: #e1baba;
+    opacity: 0.7;
+}
+
+.graphic:hover {
+    background-color: #a8a8ca;
+    opacity: 0.7;
+}
+
+.middle-head {
+    text-align: center;
+    margin-top: 125px;
+}
+
+.middle-head h1 {
+    font-size: 2.8em;
+    line-height: 35px;
+    margin: 5px;
+}
+
+.proverb {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 125px;
+}
+
+.photo {
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.gallery img {
+    height: 350px;
+    width: 350px;
+}
+
+.photo h1 {
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.photo p {
+    margin-top: 25px;
+}
+
+.gallery img:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.letter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    height: 12px;
+    width: 100vb;
+    padding: 12px;
+}
+
+.form h3 {
+    font-size: 2em;
+    margin-top: 57px;
+}
+
+.form textarea {
+    height: 32px;
+    width: 100vb;
+    padding: 12px;
+}
+
+.btn {
+    height: 55px;
+    width: 120px;
+    border: 2px solid #030303;
+    margin: 40px;
+    transition: all 0.7s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    opacity: 0.53;
+}
+
+footer {
+    margin: 125px 20px 20px 20px;
+    background-color: #1f1d1d;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.part {
+    color: white;
+}
+
+.part h4 {
+    opacity: 0.7;
+    font-size: 1.3em;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.part li {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+footer img {
+    height: 20vh;
+    width: 15vb;
+    margin-top: 10vh;
+}
